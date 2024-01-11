@@ -35,11 +35,11 @@ this.remainingPlates--
 
 var checkout = function(){
     if (this.availableTables<this.dailyTables){
-        console.log("idk what to put here ")
+       return "idk what to put here "
     }
     this.availableTables++
     this.income = this.income + 10.99
-    console.log("thank you come again ")
+    return " new table available  "
 }
 
 var newday = function(){
@@ -49,6 +49,9 @@ var newday = function(){
     this.income = 0
 }
 
+var resto1 = createRestaurent("bonjorno",8,16)
+
+$()
 
 
 

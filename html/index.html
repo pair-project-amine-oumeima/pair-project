@@ -5,23 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
 </head>
 <body>
     <header >
         <div class="header">
             <h1>
-            <a href="menu.html">See our menu</a>
+            <a class="edit" href="menu.html">Menu</a>
         
-            <h1><a href="/html/index.html">Book a table </a></h1>
-            <h3>94289822</h3>
+            <h1><a class="edit" href="/html/index.html">Reservations </a></h1>
+            <h3 class="edit">Feed Back</h3>
         </h1>
 
         </div>
 
-        <div></div>
+       
     </header>
+
+    <h2 class="center"></h2> 
+    <div class="boxes">
+        <div class="buttons">
+            <button onclick="resto1.reserve()" class="table1">Reserve</button>
+            <button onclick="resto1.checkout()" class="ctable1">Checkout</button>
+        </div>
+        
+         <div class="box1">></div>
+         <div >
+            <button onclick="resto1.reserve()" class="table2">Reserve</button>
+            <button  onclick="resto1.checkout()" class="ctable2">Checkout</button>
+        </div>
+         
+          <div class="box2">2</div> 
+          
+          <div>
+            <button onclick="resto1.reserve()" class="table3" >Reserve</button>
+            <button onclick="resto1.checkout()" class="ctable3" >Checkout</button>
+        </div>
+          <div class="box3">3</div> 
+          <div>
+            <button onclick="resto1.reserve()" class="table4"  >Reserve</button>
+            <button onclick="resto1.checkout()" class="ctable4" >Checkout</button>
+        </div>
+          <div class="box4">4</div> 
+        </div>
+
+        
+        <div class="boxes">
+            <div>
+                <button onclick="resto1.reserve()" class="table5" >Reserve</button>
+                <button onclick="resto1.checkout()" class="ctable5" >Checkout</button>
+            </div>
+            
+            
+             <div class="box5">5</div>
+             <div>
+                <button onclick="resto1.reserve()" class="table6" >Reserve</button>
+                <button onclick="resto1.checkout()" class="ctable6" >Checkout</button>
+            </div>
+             
+              <div class="box6">6</div> 
+              <div>
+                <button onclick="resto1.reserve()" class="table7" >Reserve</button>
+                <button onclick="resto1.reserve()" class="ctable7" >Checkout</button>
+            </div>
+              <div class="box7">7</div> 
+              <div>
+                <button onclick="resto1.reserve()" class="table8" >Reserve</button>
+                <button onclick="resto1.reserve()" class="ctable8" >Checkout</button>
+            </div>
+              <div class="box8">8</div> 
+            </div>
+
+            <h1 id="announcer"></h1>
+
+           
     
 
-    <script src="main.js"></script>
+
+    
+
+    <script src="/java script/main.js"></script>
 </body>
 </html>
