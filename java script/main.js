@@ -69,6 +69,8 @@ $("#grabres").on("click",function(){
     $(`${tableNumber}`).html("<img class='croped' src='https://www.ukpos.com/media/catalog/product/r/s/rspsitu.png' >")
     $(".announcer").html(`${tableNumber} is reserved`)
 
+    $(".center").html("")
+
     resto1.reserve()
     
     

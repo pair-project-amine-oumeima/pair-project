@@ -46,6 +46,7 @@ input {
     cursor: pointer;
     font-family: cursive;
     border-radius: 50px;
+    
 
 }
 .name {
@@ -66,5 +67,10 @@ p {
 a {
     text-decoration: none;
     color: white;
+}
+
+.inside {
+    font-size: 30px;
+    font-family: cursive;
 }
 

@@ -74,6 +74,7 @@ h1 {
 .closed{
     text-align: center;
     color: black;
+    font-size: 80px;
 }
 
 .analyse {
