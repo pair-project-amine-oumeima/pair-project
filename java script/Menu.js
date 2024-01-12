@@ -1,3 +1,4 @@
+
 var each = function (coll, func) {
     if (Array.isArray(coll)) {
         for (var i = 0; i < coll.length; i++) {
@@ -45,3 +46,33 @@ function filterByCategory(query) {
     })
 }
 
+
+var $conatiner = $('#container')
+
+        function display (arrayofplates) {
+            each(arrayofplates, function (element) {
+                $('#container').append(`<div class="item">
+                <img src="${element.image_url}" alt="${element.name}">
+                <div class="name">
+                    <h2>${element.name}</h2>
+                </div>
+            </div>`);
+        });
+    }
+    
+
+    $conatiner .click(function () {
+        display(arrayofplates)
+    })   
+
+    $("#filterButton").click(function () {
+            var query = $("#categoryInput").val();
+            var filteredResults = filterByCategory(query);
+
+            // Display filtered results in the #resultFilter div
+            if (filteredResults.length > 0) {
+                display(filteredResults);
+            } else {
+                $resultFilter.append("<p>No results found.</p>");
+            }
+        });
