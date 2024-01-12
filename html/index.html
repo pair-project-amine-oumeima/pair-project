@@ -24,64 +24,52 @@
 
     <h2 class="center"></h2> 
     <div class="boxes">
-        <div class="buttons">
-            <button onclick="resto1.reserve()" class="table1">Reserve</button>
-            <button onclick="resto1.checkout()" class="ctable1">Checkout</button>
-        </div>
         
-         <div class="box1">></div>
-         <div >
-            <button onclick="resto1.reserve()" class="table2">Reserve</button>
-            <button  onclick="resto1.checkout()" class="ctable2">Checkout</button>
-        </div>
+        
+         <div class="table1">1</div>
          
-          <div class="box2">2</div> 
+         
+          <div class="table2">2</div> 
           
-          <div>
-            <button onclick="resto1.reserve()" class="table3" >Reserve</button>
-            <button onclick="resto1.checkout()" class="ctable3" >Checkout</button>
-        </div>
-          <div class="box3">3</div> 
-          <div>
-            <button onclick="resto1.reserve()" class="table4"  >Reserve</button>
-            <button onclick="resto1.checkout()" class="ctable4" >Checkout</button>
-        </div>
-          <div class="box4">4</div> 
+          
+          <div class="table3">3</div> 
+          
+          <div class="table4">4</div> 
         </div>
 
         
         <div class="boxes">
-            <div>
-                <button onclick="resto1.reserve()" class="table5" >Reserve</button>
-                <button onclick="resto1.checkout()" class="ctable5" >Checkout</button>
-            </div>
             
             
-             <div class="box5">5</div>
-             <div>
-                <button onclick="resto1.reserve()" class="table6" >Reserve</button>
-                <button onclick="resto1.checkout()" class="ctable6" >Checkout</button>
-            </div>
+            
+             <div class="table5">5</div>
              
-              <div class="box6">6</div> 
-              <div>
-                <button onclick="resto1.reserve()" class="table7" >Reserve</button>
-                <button onclick="resto1.checkout()" class="ctable7" >Checkout</button>
-            </div>
-              <div class="box7">7</div> 
-              <div>
-                <button onclick="resto1.reserve()" class="table8" >Reserve</button>
-                <button onclick="resto1.checkout()" class="ctable8" >Checkout</button>
-            </div>
-              <div class="box8">8</div> 
+             
+              <div class="table6">6</div> 
+              
+              <div class="table7">7</div> 
+              
+              <div class="table8">8</div> 
             </div>
 
-            <h2 class="announcer">hhh</h2><br>
-            <button onclick="resto1.newday()">Close Restaurent</button> <br>
-            <button class="plates">show available tables and plates </button> <br>
+            <h2 class="announcer"></h2><br>
+            <div class="bstyle">
+            <button class="newincome" onclick="resto1.newday()">Close Restaurent</button> <br>
+            <button class="plates" onclick="resto1.displaycont()">show available tables and plates </button> <br>
+          </div>
             
 
             <h2 class="analyse"></h2>
+           
+            <button id="grabres">reserve</button>
+            <input id="resinput" type="text">
+            <button id="grabchec">checkout</button>
+            <input id="checinput" type="text">
+      
+            
+
+            
+            
 
             
 
