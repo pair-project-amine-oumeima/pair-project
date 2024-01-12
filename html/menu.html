@@ -6,21 +6,28 @@
     <title>Plate Filter</title>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
     integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="/css/menu.css">
 </head>
 <body>
-    <div id="container" class ="Menu"> Menu </div>
+    <div class="header">
+    <h1 class ="Menu" style="color: white;"> Menu </h1>
+    <h1><p>
+    <a href="/html/index.html" style="text-align:right"> Reservation </a>
+     </p></h1>
+    </div>
 
     <div id="resultFilter">
         <form id="categoryFilterForm">
             <label for="categoryInput"> Filter by Category:</label>
-            <input type="text" id="categoryInput" name="categoryInput">
-            <button type="button" id="filterButton">Filter</button>
+            <input type="text" id="categoryInput" name="categoryInput" placeholder="search">
+            <button type="button" id="filterButton"><h4>Search</h4></button>
         </form>
     </div>
+    
+    <div id="container" >  </div>
 
          
 
-    <script src="Menu.js"></script>
+    <script src="/java script/Menu.js"></script>
 </body>
 </html>
