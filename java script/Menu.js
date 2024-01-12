@@ -87,6 +87,7 @@ var showMenu = $('.Menu')
             if (filteredResults.length > 0) {
                 display(filteredResults);
             } else {
-                $resultFilter.append("<p> No results found. </p>");
+                var $resultFilter= $("#resultFilter")
+                $resultFilter.append("<h1 style='color:black; text-align: center;'> No results found. </h1>")
             }
         });

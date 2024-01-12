@@ -17,7 +17,7 @@ body{ background-image: url(../images/back-ground.jpg);
 
 input {
     background-image: url('../images/search.icon.png');
-    border: 2px solid black
+    border: 2px solid black;
     border-radius: 4px;
     background-repeat: no-repeat;
     background-size: 20px 20px; 
